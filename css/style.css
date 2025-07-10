@@ -619,3 +619,6 @@ footer p {
   
 
 }
+#contact {
+  scroll-margin-top: 60px; /* Adjust this to match your nav height */
+}
