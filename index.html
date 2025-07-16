@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamiru Assefa</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/logo.png" type="image/png" />
+
 </head>
 <body>
     <div class="background">
@@ -15,7 +17,7 @@
 </div>
 
     <header>
-  <div class="logo">Tamiru</div> <!-- Optional left-side logo or text -->
+  <div class="logo"><img src="/images/logo.png"></div> <!-- Optional left-side logo or text -->
   <nav>
     <ul>&nbsp;&nbsp;&nbsp;
       <li><a href="#" class="active">Home</a></li>
@@ -148,15 +150,53 @@
   </ul>
 </div>
 
+  <hr><h2 id="ex"><b>Professional Journey</b> </h2>
+  <hr class="custom-hr">
+  <div class="experiance">
+    <div class = "ex-large-box">
+    <div class = "exp box1">
+      <div class = "ex-text">
+      <h5>  Solution Architect  &nbsp; &nbsp; | <span style="color: orangered; ">Freelance</span></h5> 
+      <span class="duration1"> 2025 - present </span>
+      <p>Designed and implemented secure, scalable, and cost-efficient cloud architectures using AWS services. 
+        Expertise in building high-performance solutions tailored to business needs, including website hosting, serverless applications, and data storage solutions.</p>
+    </div>
+  </div> 
+    <div class = "exp box2">
+      <div class = "ex-text">
+      <h5> DevOps Engineer &nbsp; &nbsp;| <span style="color: orangered; ">Freelance</span></h5> 
+      <span class="duration1"> 2025 - present </span>
+      <p> Designed and implemented secure, automated, and scalable CI/CD pipelines and infrastructure using modern DevOps tools and practices.
+Expertise in deploying and managing high-performance applications with Docker, Kubernetes, and AWS services, enabling continuous integration, automated testing, and efficient delivery across development, staging, and production environments.</p>
+    </div></div>
+    <div class = "exp box3">
+      <h5> ALX Ethiopia Brand Ambassador &nbsp; &nbsp;| <span style="color: orangered; ">Part-Time</span></h5> 
+      <span class="duration1"> 2024 - present </span>
+      <p> Served as a Brand Ambassador at ALX Ethiopia, representing the organization’s mission to empower Africa’s future leaders through technology and professional development.
+Actively organized and hosted tech-focused events, workshops, and info sessions for students and early-career professionals.
+Built and nurtured a vibrant community of learners, fostering collaboration, growth, and knowledge-sharing.
+</p>
+    </div>
+<div class = "exp box4">
+      <h5> PR & Social Media Manager of SMU CS CLUB &nbsp; &nbsp;| <span style="color: orangered; ">Part-Time</span></h5> 
+      <span class="duration1"> 2025 - present </span>
+      <p> Managed the public image and digital presence of the SMU Computer Science Club, leading efforts to engage students through strategic communication and content creation.
+Developed and executed social media campaigns to promote events, workshops, and tech talks, resulting in increased student participation and club visibility.
+Collaborated with the club’s leadership team to design visually engaging promotional materials and maintain consistent branding across platforms.</p>
+    </div>
+</div>
+  </div>
+
             <hr><h2 id="cert">Certifications🏆 </h2>
         <div class="certifications-wrapper">
   <div class="Certifications">
     
     <a href="https://www.credly.com/badges/afa53903-92df-41ac-be63-79397599215d/public_url"><img src="/images/aws-associate.png" alt="AWS Certified Solutions Architect - Associate"></a>
-    <a href="https://www.credly.com/badges/628a76a8-5c47-4bc4-ae34-bf218ea53c43/public_url"><img src="/images/aws-foundation.png" alt="AWS Certified Cloud Practitioner"></a>
+    
     <img src="/images/aws-deepracer.png" alt="AWS Deepracer">
     <img src="/images/aws-quest.png" alt="AWS Cloud Quest">
     <img src="/images/devops.webp" alt="DevOps Engineer">
+    <a href="https://www.credly.com/badges/628a76a8-5c47-4bc4-ae34-bf218ea53c43/public_url"><img src="/images/aws-foundation.png" alt="AWS Certified Cloud Practitioner"></a>
   </div>
 </div>
 <br><br>
@@ -164,29 +204,14 @@
         <br><br>
         <div class="contact" id="contact">
   <h2>Contact Me</h2>
-  <form action="mailto:ybtamiruasefa@gmail.com" method="POST" enctype="text/plain">
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-    </div>
+ <form id="contactForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="email" id="email" placeholder="Email" required>
+  <input type="text" id="subject" placeholder="Subject" required>
+  <textarea id="message" rows="5" placeholder="Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
 
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-
-    <div class="form-group">
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" required>
-    </div>
-
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
-
-    <button type="submit">Send</button>
-  </form>
 
   <div class="contact-info">
     <h3>Get In Touch!</h3>
@@ -229,5 +254,6 @@
   </div>
 </footer>
 
+<script src="/pages/script.js"></script>
 </body>
 </html>

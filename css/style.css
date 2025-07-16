@@ -6,7 +6,13 @@
   overflow: hidden;
   z-index: -1;
 }
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
 
+}
 .bubbles {
   position: absolute;
   display: flex;
@@ -621,4 +627,62 @@ footer p {
 }
 #contact {
   scroll-margin-top: 60px; /* Adjust this to match your nav height */
+}
+
+#ex {
+  text-align: center;
+  color: #00BFA6;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.custom-hr {
+  width: 50%;
+  border: 2px solid #00BFA6;
+  margin: 40px auto 10px auto;
+}
+
+.experiance {
+  margin: 40px 100px;
+  padding-left: 20px;
+  border-left: 4px solid #00BFA6;
+  
+}
+
+.exp {
+  background-color: #111527;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  color: white;rgb(191, 102, 0)rgb(191, 108, 0)rgb(212, 126, 12)
+  b
+  box-shadow: 0 4px 20px rgba(0, 191, 166, 0.1);}
+
+.exp h5 {
+  margin: 10px 30px;
+  color: aqua
+}
+
+.exp p {
+  margin: 10px 30px;
+}
+
+.exp span {
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.duration1 {
+  background-color: #058574;  /* or any color you like */
+  color: white;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-left: 30px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.exp p{
+  font-family:'Times New Roman', Times, serif;
 }
