@@ -25,7 +25,7 @@ resumelink.addEventListener("click", function() {
     fetch(telegramAPI)
       .then(response => {
         if (response.ok) {
-          alert("Message sent successfully to Telegram!");
+          alert("Your Message sent successfully to Tamiru!");
           document.getElementById("contactForm").reset();
         } else {
           alert("Failed to send message.");
